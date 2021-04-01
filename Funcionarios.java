@@ -3,11 +3,6 @@ class Funcionarios{
   private String atividade;
 
 
-  public Funcionarios(String nome, String atividade){
-    this.nome = nome;
-    this.atividade = atividade;
-  }
-  
   public String getnome(){
     return nome;
   }
